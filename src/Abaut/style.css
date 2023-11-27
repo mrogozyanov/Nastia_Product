@@ -1,0 +1,91 @@
+.Abaut_conteiner {
+    margin-top: 70px;
+    background-color: #F5F5F5;
+    height: 800px;
+}
+
+.Abaut_zagalovok {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.img_abaut {
+    border-radius: 20px;
+}
+
+.abaut_photo_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Abaut {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.abaut_text {
+    margin-bottom: 10px;
+}
+
+.Abaut_aid {
+    font-size: 20px;
+}
+
+.test {
+    border: 1px solid black;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.test:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .3s;
+}
+
+.h2_abaut {
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 850px) {
+
+    .img_abaut {
+        width: 300px;
+    }
+
+    .Abaut_text_one {
+        font-size: 18px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    .Abaut_text_two {
+        font-size: 15px;
+    }
+
+    .h2_abaut {
+        margin-top: 30px;
+    }
+
+    .test {
+        width: 370px;
+        margin-left: 10px;
+    }
+
+    .Abaut_aid {
+        font-size: 17px;
+    }
+
+    .Abaut {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,75 @@
+.icon {
+    background-color: #262f38;
+    margin: 10px;
+    margin-top: 150px;
+    padding: 10px;
+}
+
+.icon:hover {
+    background-color: #04c2c9;
+    transition-duration: .6s;
+}
+
+.conteiner_icon {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.LegalInformationAndSocialMedia_conteiner {
+    background-color: #1b242f;
+}
+
+.urInfa {
+    color: white;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.agrees_nastia {
+    margin-top: 30px;
+}
+
+.stipulation {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.color_btn {
+    color: white;
+    text-decoration: none;
+}
+
+.auter {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.color_autor_two {
+    color: #e31b6d;
+    margin-left: 5px;
+}
+
+.color_autor {
+    color: #8f9aa7;
+    text-decoration: none;
+}
+
+@media all and (max-width: 850px) {
+    .urInfa {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stipulation {
+        margin-top: 30px;
+    }
+
+    .color_btn {
+        font-size: 13px;
+    }
+}

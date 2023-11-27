@@ -1,0 +1,44 @@
+.conteiner {
+    background-color: black;
+    padding: 1px;
+}
+
+.zagalovok_nastia {
+    color: black;
+}
+
+.zagalovok {
+    display: flex;
+    justify-content: space-around;
+}
+
+.zagalovok_btn {
+    display: flex;
+    margin-left: 600px;
+    color: black;
+    font-size: 20px;
+}
+
+.abaut_zagalovok {
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.achievements_zagalovok {
+    padding: 15px;
+    cursor: pointer;
+}
+
+@media all and (max-width: 850px) {
+    .zagalovok {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .zagalovok_btn {
+        margin: 0;
+    }
+
+}
